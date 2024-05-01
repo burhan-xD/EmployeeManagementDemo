@@ -12,7 +12,7 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace ServerLibrary.Repositories.Implementation // STRING IFADELER ICIN IYILESTIRMELER YAPILACAK..
+namespace ServerLibrary.Repositories.Implementation // STRING IFADELER ICIN IYILESTIRMELER YAPILACAK!
 {
     public class UserAccountRepository(IOptions<JwtSection> config, AppDbContext appDbContext) : IUserAccount
     {
